@@ -1,0 +1,53 @@
+#main {
+    position: fixed;
+    right: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    border-bottom: solid 2px;
+    border-color: black;
+}
+
+.head1 {
+    background-color: teal;
+    width: 175px;
+    height: 40px;
+    text-align: center;
+    color: white;
+    margin-left: 350px;
+    top: 0;
+    bottom: 0;
+    padding: 20px 16px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+p {
+    position: absolute;
+    text-align: center;
+    top: 5px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 250;
+    bottom: 15px;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right-style: solid;
+}

@@ -1,0 +1,102 @@
+.bg {
+    background-image: url ("https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.toptal.com%2Fdesigners%2Fsubtlepatterns%2Fpatterns%2Fgravel.png&imgrefurl=https%3A%2F%2Fwww.toptal.com%2Fdesigners%2Fsubtlepatterns%2F&docid=L1CLyFXedQ6FSM&tbnid=40SzcxCNUWgQ0M%3A&vet=10ahUKEwi277yh-M7dAhWNK3wKHY3UBJkQMwjWAihBMEE..i&w=400&h=400&bih=938&biw=1920&q=background%20pattern%20css&ved=0ahUKEwi277yh-M7dAhWNK3wKHY3UBJkQMwjWAihBMEE&iact=mrc&uact=8");
+}
+
+        /*header and Nav Bar */
+#navbar {
+    position: fixed;
+    background-color: #ffffff;
+    margin: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    border-bottom: solid 2px;
+    border-color: #dddddd;
+}
+
+.myname {
+    background-color: #4aaaa5;
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    color: white;
+    margin-left: 475px;
+    top: 0;
+    bottom: 0;
+    padding: 20px 16px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+#one {
+    position: absolute;
+    top: 0;
+}
+
+/*About Portfolio Contact Tabs */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 485;
+    bottom: 15px;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right-style: solid;
+}
+
+.container {
+        position: relative;
+        margin: 0 auto 0 auto;
+        top: 100px;
+        background-color: #f2f2f2;
+        padding: 20px;
+        width: 960px;
+        height: 575px;
+        color: #777777;
+        border-style: solid;
+        border-color: #cccccc;
+        border-width: 2px;
+}
+
+h1 {
+    color: #4aaaa5;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+form {
+    color: #777777;
+    font-size: 20px;
+}
+.footer {
+    background-color: #666666;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    border-top-style: solid;
+    border-width: 5px;
+    border-color: #4aaaa5;
+}
